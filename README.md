@@ -1,5 +1,6 @@
 jenkins-template-php
 ====================
+The goal of this project is to provide a standard template for Jenkins jobs for PHP projects.
 
 Required Jenkins Plugins
 
