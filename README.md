@@ -68,7 +68,7 @@ Using the Job Template
 
 2- Download and install the job template:
 
-    curl https://raw.github.com/sebastianbergmann/php-jenkins-template/master/config.xml | \
+    curl https://github.com/MaherD/jenkins-template-php/master/config.xml | \
         java -jar jenkins-cli.jar -s http://localhost:8080/jenkins create-job php-template
 
 or add the template manually:
@@ -76,7 +76,7 @@ or add the template manually:
     cd $JENKINS_HOME/jobs
     mkdir php-template
     cd php-template
-    wget https://raw.github.com/sebastianbergmann/php-jenkins-template/master/config.xml
+    wget https://github.com/MaherD/jenkins-template-php/master/config.xml
     cd ..
     chown -R jenkins:jenkins php-template/
 
